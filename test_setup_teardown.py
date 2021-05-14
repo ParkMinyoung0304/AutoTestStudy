@@ -48,15 +48,6 @@ class TestCase():
         driver.find_element_by_id("su").click()
 
         
-    def test_selenium_Chinese(self):
-        driver.find_element_by_link_text("体育").click()
 
-    #不同控件查找：
-    def test_six(self):
-        driver.find_element_by_link_text("直播").click()
-        
-    def test_seven(self):
-        driver.find_element_by_link_text("地图").click()
-        
 
 
